@@ -3,3 +3,120 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* CLASSI DI LAYOUT */
+
+.container{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.container-sm{
+    margin: 0px auto;
+    max-width: 921px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-20{
+    flex-basis: 20%;
+}
+
+
+.column-40{
+    flex-basis: 40%;
+}
+
+.column-60{
+    flex-basis: 60%;
+}
+
+.column-100{
+    flex-basis: 100%;
+}
+
+/* FINE CLASSI DI LAYOUT */
+
+
+/* CLASSI DI UTILITY */
+
+.height-20{
+    height: 20px;
+}
+
+.height-40{
+    height: 20px;
+}
+
+.height-60{
+    height: 20px;
+}
+
+.height-100{
+    height: 100px;
+}
+
+.height-200{
+    height: 200px;
+}
+
+.height-400{
+    height: 400px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-silver{
+    background-color: silver;
+}
+
+.bg-gold{
+    background-color: gold;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.vpadding-30{
+    padding: 30px 0px;
+}
+
+.vmargin-30{
+    margin: 30px auto;
+}
+
+.dotted{
+    border: 1px dotted black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+/* FINE CLASSI DI UTILITY */
+
+
+header{
+    background-color: lightcyan;
+    padding: 10px 0px;
+}
+
