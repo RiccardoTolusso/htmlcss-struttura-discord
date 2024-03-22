@@ -23,6 +23,10 @@
     flex-wrap: wrap;
 }
 
+.column-15{
+    flex-basis: 15%;
+}
+
 .column-20{
     flex-basis: 20%;
 }
@@ -40,10 +44,22 @@
     flex-basis: 100%;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
 /* FINE CLASSI DI LAYOUT */
 
 
 /* CLASSI DI UTILITY */
+
+.line-height-3{
+    line-height: 3;
+}
 
 .height-20{
     height: 20px;
@@ -62,6 +78,10 @@
 }
 
 .height-200{
+    height: 200px;
+}
+
+.height-300{
     height: 200px;
 }
 
@@ -91,6 +111,14 @@
 
 .bg-pink{
     background-color: pink;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.vpadding-2{
+    padding: 2px 0px;
 }
 
 .vpadding-30{
